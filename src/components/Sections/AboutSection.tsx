@@ -13,8 +13,8 @@ const AboutSection: React.FC = () => {
   const stats = [
     { number: "3+", label: "Years Experience", color: "#667eea" },
     { number: "10+", label: "Technologies", color: "#764ba2" },
-    { number: "6+", label: "Projects", color: "#667eea" },
-    { number: "4.5", label: "GPA", color: "#764ba2" },
+    { number: "9+", label: "Projects", color: "#667eea" },
+    { number: "28+", label: "Age", color: "#764ba2" },
   ];
 
   return (

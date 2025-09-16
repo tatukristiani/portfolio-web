@@ -6,28 +6,28 @@ const SkillsSection: React.FC = () => {
   const skills: Skill[] = [
     // Frontend
     { name: "React", level: 90, category: "Frontend" },
+    { name: "TypeScript", level: 90, category: "Frontend" },
     { name: "JavaScript", level: 90, category: "Frontend" },
-    { name: "TypeScript", level: 75, category: "Frontend" },
-    { name: "HTML/CSS", level: 85, category: "Frontend" },
-    { name: "Bootstrap", level: 80, category: "Frontend" },
+    { name: "HTML/CSS", level: 90, category: "Frontend" },
+    { name: "Bootstrap", level: 90, category: "Frontend" },
     // Backend
-    { name: "C# / .NET", level: 85, category: "Backend" },
-    { name: "Node.js / Express", level: 85, category: "Backend" },
-    { name: "Integration Development", level: 95, category: "Backend" },
-    { name: "REST APIs", level: 80, category: "Backend" },
+    { name: "Integration Development", level: 100, category: "Backend" },
+    { name: "REST APIs", level: 100, category: "Backend" },
+    { name: "C# / .NET", level: 90, category: "Backend" },
+    { name: "Node.js / Express", level: 80, category: "Backend" },
     // Database
-    { name: "MSSQL", level: 85, category: "Database" },
-    { name: "MySQL", level: 80, category: "Database" },
-    { name: "PostgreSQL", level: 70, category: "Database" },
-    { name: "MongoDB", level: 65, category: "Database" },
-    { name: "Azure SQL", level: 75, category: "Database" },
+    { name: "Azure SQL", level: 90, category: "Database" },
+    { name: "MSSQL", level: 90, category: "Database" },
+    { name: "MySQL", level: 85, category: "Database" },
+    { name: "PostgreSQL", level: 80, category: "Database" },
+    { name: "MongoDB", level: 80, category: "Database" },
     // Tools
-    { name: "Git", level: 90, category: "Tools" },
-    { name: "Azure DevOps", level: 65, category: "Tools" },
-    { name: "CI/CD", level: 75, category: "Tools" },
-    { name: "Docker", level: 60, category: "Tools" },
-    { name: "Jira", level: 90, category: "Tools" },
+    { name: "Git", level: 100, category: "Tools" },
+    { name: "Jira", level: 100, category: "Tools" },
+    { name: "CI/CD", level: 90, category: "Tools" },
     { name: "Unit Testing", level: 90, category: "Tools" },
+    { name: "Azure DevOps", level: 70, category: "Tools" },
+    { name: "Docker", level: 60, category: "Tools" },
   ];
 
   const categories = ["Frontend", "Backend", "Database", "Tools"];

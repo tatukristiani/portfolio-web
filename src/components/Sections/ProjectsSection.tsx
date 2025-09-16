@@ -8,6 +8,7 @@ import {
   Terminal,
   Film,
   Layers,
+  HouseIcon
 } from "lucide-react";
 import { Project } from "../../types/index";
 
@@ -38,16 +39,36 @@ const ProjectsSection: React.FC = () => {
     },
     {
       id: 3,
-      title: "Sales Alert Pro",
+      title: "Portfolio Website v1.0",
       description:
-        "Web scraping application for monitoring product prices with automated alert system.",
-      icon: <ShoppingCart size={40} />,
-      techStack: ["React", "Node.js", "Express", "MongoDB", "Web Scraping"],
-      githubUrl: "https://github.com/tatukristiani/shop-scraper-frontend",
-      gradient: "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+        "Modern portfolio built with React, TypeScript, and stunning animations.",
+      icon: <Globe size={40} />,
+      techStack: ["React", "TypeScript", "Bootstrap", "Modern UI/UX"],
+      githubUrl: "https://github.com/tatukristiani/portfolio",
+      gradient: "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+    },
+     {
+      id: 4,
+      title: "Portfolio Website v2.0",
+      description:
+        "More improved and visually appealing portfolio website built with React, TypeScript, and stunning animations.",
+      icon: <Globe size={40} />,
+      techStack: ["React", "TypeScript", "Bootstrap", "Modern UI/UX"],
+      githubUrl: "https://github.com/tatukristiani/portfolio-web",
+      gradient: "linear-gradient(135deg, #7a86ecff 0%, #fed6e3 100%)",
     },
     {
-      id: 4,
+      id: 5,
+      title: "Villa Rater",
+      description:
+        "Group decision-making app for choosing the perfect holiday villa",
+      icon: <HouseIcon size={40} />,
+      techStack: ["React", "TypeScript", "Bootstrap", "Supabase", "PostgreSQL", "AI", "Vite"],
+      githubUrl: "https://github.com/tatukristiani/villa-rater",
+      gradient: "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+    },
+    {
+      id: 6,
       title: "Console Chess",
       description:
         "Fully functional chess game with AI opponent, move validation, and game state management.",
@@ -57,17 +78,17 @@ const ProjectsSection: React.FC = () => {
       gradient: "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
     },
     {
-      id: 5,
-      title: "Portfolio Website",
+      id: 7,
+      title: "Sales Alert Pro",
       description:
-        "Modern portfolio built with React, TypeScript, and stunning animations.",
-      icon: <Globe size={40} />,
-      techStack: ["React", "TypeScript", "Bootstrap", "Modern UI/UX"],
-      githubUrl: "https://github.com/tatukristiani/portfolio",
-      gradient: "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+        "Web scraping application for monitoring product prices with automated alert system.",
+      icon: <ShoppingCart size={40} />,
+      techStack: ["React", "Node.js", "Express", "MongoDB", "Web Scraping"],
+      githubUrl: "https://github.com/tatukristiani/shop-scraper-frontend",
+      gradient: "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
     },
     {
-      id: 6,
+      id: 8,
       title: "Vincit Project",
       description:
         "Bitcoin data analyzer with advanced visualization and historical data analysis.",
@@ -75,6 +96,16 @@ const ProjectsSection: React.FC = () => {
       techStack: ["JavaScript", "Data Visualization", "API Integration"],
       githubUrl: "https://github.com/tatukristiani/VincitProject",
       gradient: "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+    },
+    {
+      id: 9,
+      title: "Genapi",
+      description:
+        "Application still in development which could be utilized to generate a data-driven APIs with user inputs. Github repo is private for the backend.",
+      icon: <Layers size={40} />,
+      techStack: ["C#", "React", "Azure SQL", "CI/CD", ".NET Core"],
+      githubUrl: "https://github.com/tatukristiani/genapi",
+      gradient: "linear-gradient(135deg, #520202ff 0%, #fc9f9fff 100%)",
     },
   ];
 
