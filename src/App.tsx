@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Analytics } from "@vercel/analytics/react"
 import SidebarNavigation from "./components/Navigation/SidebarNavigation";
 import HeroSection from "./components/Sections/HeroSection";
 import AboutSection from "./components/Sections/AboutSection";
@@ -134,6 +135,7 @@ const App: React.FC = () => {
           </footer>
         </main>
       </div>
+      <Analytics/> {/* Vercel Analytics  */}
     </>
   );
 };
